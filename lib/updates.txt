@@ -1,0 +1,9 @@
+Date: 16-02-2026
+
+1.  Added a new text file named as updates.txt file, to put all the changes here in this file to track the changes efficiently.
+2.  The unused temporary files have been removed. The file names are: latpay_default_result.dart, latpay_payment_action_callback.dart, latpay_payment_service.dart and latpay_service.dart
+    These temporary files are created at the begining of the time to test the SDK flow
+3.  The unused commented out section at the bottom has been removed on latpay_3ds_screen.dart file
+4.  The unused import statement "import 'latpay_payment_action_callback.dart';" have been removed on latpay_checkout.dart
+5.  onPaymentAction is moved to latpay_payment_callback.dart file
+6.  The unwanted commented codes and import statements have been removed on the paymentsheet.dart file

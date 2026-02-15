@@ -4,7 +4,6 @@ import 'paymentsheet.dart';
 import 'latpay_error_dialog.dart';
 import 'latpay_status.dart';
 import 'latpay_payment_callback.dart';
-import 'latpay_payment_action_callback.dart';
 
 typedef LatpayStatusCallback = void Function(Map<String, String> status);
 
